@@ -1,2 +1,0 @@
-# Automationpractise.com
-Automation Project 
