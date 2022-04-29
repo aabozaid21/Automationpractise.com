@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="16" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-29T19:23:00Z" name="Suite" finished-at="2022-04-29T19:23:40Z" duration-ms="40621">
+    <groups>
+    </groups>
+    <test started-at="2022-04-29T19:23:00Z" name="All" finished-at="2022-04-29T19:23:40Z" duration-ms="40621">
+      <class name="tests.LoginTest">
+        <test-method signature="missingPasswordField()[pri:1, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:15Z" name="missingPasswordField" finished-at="2022-04-29T19:23:20Z" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingPasswordField -->
+        <test-method signature="testLoginWithIncorrectPassword()[pri:2, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:20Z" name="testLoginWithIncorrectPassword" finished-at="2022-04-29T19:23:23Z" duration-ms="3077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithIncorrectPassword -->
+        <test-method signature="CreateAccounErrorMessage()[pri:3, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:23Z" name="CreateAccounErrorMessage" finished-at="2022-04-29T19:23:24Z" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccounErrorMessage -->
+        <test-method signature="testtUserWithList(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:24Z" name="testtUserWithList" data-provider="UsersList" finished-at="2022-04-29T19:23:27Z" duration-ms="2351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtUserWithList -->
+        <test-method signature="testtUserWithList(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:27Z" name="testtUserWithList" data-provider="UsersList" finished-at="2022-04-29T19:23:29Z" duration-ms="2407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtUserWithList -->
+        <test-method signature="testtUserWithList(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:29Z" name="testtUserWithList" data-provider="UsersList" finished-at="2022-04-29T19:23:33Z" duration-ms="4094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtUserWithList -->
+        <test-method signature="LoginWithDataProvider(java.lang.String, java.lang.String)[pri:5, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:33Z" name="LoginWithDataProvider" data-provider="UsersList2" finished-at="2022-04-29T19:23:37Z" duration-ms="3927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithDataProvider -->
+        <test-method signature="LoginWithDataProvider(java.lang.String, java.lang.String)[pri:5, instance:tests.LoginTest@7cd1ac19]" started-at="2022-04-29T19:23:37Z" name="LoginWithDataProvider" data-provider="UsersList2" finished-at="2022-04-29T19:23:40Z" duration-ms="2829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithDataProvider -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageTest">
+        <test-method signature="checkHomePageCount()[pri:0, instance:tests.HomePageTest@5851bd4f]" started-at="2022-04-29T19:23:05Z" name="checkHomePageCount" finished-at="2022-04-29T19:23:06Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHomePageCount -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.ContactUsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactUsTest@46cf05f7]" started-at="2022-04-29T19:23:00Z" name="setUp" finished-at="2022-04-29T19:23:05Z" duration-ms="5847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactUs()[pri:1, instance:tests.ContactUsTest@46cf05f7]" started-at="2022-04-29T19:23:06Z" name="testContactUs" finished-at="2022-04-29T19:23:15Z" duration-ms="9796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactUsTest@46cf05f7]" started-at="2022-04-29T19:23:40Z" name="tearDown" finished-at="2022-04-29T19:23:40Z" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactUsTest -->
+    </test> <!-- All -->
+  </suite> <!-- Suite -->
+</testng-results>
