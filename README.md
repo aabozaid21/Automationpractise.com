@@ -8,6 +8,10 @@ A testing automation project by selenium webdriver for http://automationpractice
 
 
 
+https://user-images.githubusercontent.com/26165773/166077480-b9c05669-f41e-4e5d-a43b-5bb6b068d511.mp4
+
+
+
 
 ## Stack and Libraries
 
