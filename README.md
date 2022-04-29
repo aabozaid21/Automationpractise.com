@@ -32,3 +32,9 @@ A testing automation project by selenium webdriver for http://automationpractice
  - Page objects are in the directory src/main/java/pages
  - Test classes are in the the directory src/test/java/tests
  
+ ## HOw to run 
+ - after downloading the project open it in eclipse IDE 
+ - rigth click on All.xml choose TestNG and then run as TestNG
+ 
+ ## output
+ - test report are found at test-output\index.htm 
